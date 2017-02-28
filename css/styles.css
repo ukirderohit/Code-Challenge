@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding-top: 760px;
+  font-family: Karla;
 }
 
 header {
@@ -10,10 +11,11 @@ header {
 
 /*Gradient from https://uigradients.com/ */
 #Home {
- background: #F0C27B; /* fallback for old browsers */
- background: -webkit-linear-gradient(to left, #F0C27B , #4B1248); /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to left, #F0C27B , #4B1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- height:760px;
+    background: -webkit-linear-gradient(left, rgba(255,194,123,0.5), rgba(75, 18, 72,0.5)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(240, 194, 123,0.5), rgba(75, 18, 72,0.5)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(240, 194, 123,0.5), rgba(75, 18, 72,0.5)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(240, 194, 123,0.5), rgba(75, 18, 72,0.5)); /* Standard syntax (must be last) */ height:760px;
+
   }
 
 
@@ -23,12 +25,13 @@ background-image: url('../img/image1.jpg');
 background-repeat:no-repeat;
 width: 100%;
 height: 760px;
-opacity: .7;
+opacity: 1;
 background-position: top center;
 background-size: cover;
 /*position: fixed;*/
 /*top : 0; to stick top of the page*/
  }
+
 
 
 /*Contents other than header should be relative*/
@@ -64,3 +67,12 @@ header,
   column-gap: 40px;
 }
 
+.frontTagLine { 
+   position: absolute; 
+   top: 294px;   
+   left: 675px; 
+   width: 100%; 
+   color: #fff;
+   opacity: 1;
+  
+}
