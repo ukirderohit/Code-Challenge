@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  padding-top: 760px;
+}
+
+header {
+  height: 760px;
+}
+
+/*Gradient from https://uigradients.com/ */
+#Home {
+ background: #F0C27B; /* fallback for old browsers */
+ background: -webkit-linear-gradient(to left, #F0C27B , #4B1248); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to left, #F0C27B , #4B1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ height:760px;
+  }
+
+
+/*Header Image*/
+#header-bg {
+background-image: url('../img/image1.jpg');
+background-repeat:no-repeat;
+width: 100%;
+height: 760px;
+opacity: .7;
+background-position: top center;
+background-size: cover;
+/*position: fixed;*/
+/*top : 0; to stick top of the page*/
+ }
+
+
+/*Contents other than header should be relative*/
+.main-nav,
+.main {
+  position: relative; 
+}
+
+/*main nav with white bg and zindex to stay above all the content*/
+.main-nav {
+  background: #fff;
+  height: 40px;
+  z-index: 200;
+  margin-bottom: -40px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+
+/*Header always stays at the top so fix its position*/
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+
+
+.main {
+  background: #f2f2e8;
+  padding: 110px 50px 50px;
+  column-count: 2;
+  column-gap: 40px;
+}
+
