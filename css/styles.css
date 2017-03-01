@@ -2,12 +2,20 @@
 body {
   margin: 0;
   padding-top: 760px;
+  font-size: 100%;
   font-family: Karla;
 }
 
-header {
-  height: 760px;
+
+
+.wrapper,
+.icondown{
+  width: 100%;
+  margin: 0 auto;
+  position: center;
 }
+
+
 
 /*Gradient from https://uigradients.com/ */
 #Home {
@@ -26,7 +34,7 @@ background-repeat:no-repeat;
 width: 100%;
 height: 760px;
 opacity: 1;
-background-position: top center;
+position: relative;
 background-size: cover;
 /*position: fixed;*/
 /*top : 0; to stick top of the page*/
@@ -67,12 +75,54 @@ header,
   column-gap: 40px;
 }
 
-.frontTagLine { 
-   position: absolute; 
-   top: 294px;   
-   left: 675px; 
-   width: 100%; 
-   color: #fff;
-   opacity: 1;
+h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
+
+.frontTagLine {
+  font-family: Karla;
+  color:  #fff;
+  float: right;
+  width: 40.5%;
+  margin-right: 0.08334%;
+  margin-top: 25.66%;
+  position: relative; 
   
 }
+
+
+
+h2 span {
+    display: block;
+}
+
+h4 span {
+    display: block;
+}
+
+.frontTagLine a{
+  float: left;
+  padding : 0.5% 1%;
+  
+  margin-right: 1%;
+}
+
+a span{
+  width: 100%;
+  float: none;
+  font-size: 50px;
+  color: white;
+
+}
+
+a span:hover {
+  color: 'black';
+}
+
+
+a.btn.btn-transparent{
+  border : 3px solid #fff;
+  color: #fff;
+  display: block;
+  width: 40%;
+  
+}
+
