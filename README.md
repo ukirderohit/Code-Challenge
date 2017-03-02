@@ -3,7 +3,7 @@ Task: Develop an HTML page based off the design. Make sure it is responsive usin
 Images: Provided in Zip File<br>
 Photoshop File: Provided in Zip File<br>
 Fonts: Karla Regular, Karla Bold (available for free via Google Fonts)<br>
-
+##[My Solution Demo](http://ukirderohit.me/Code-Challenge/)
 
 ###To be done:
 – Menu bar fixed to bottom of the page upon arrival, should move up to top of page upon scroll, and once it hits the top of the page, should remain fixed at top of page.
