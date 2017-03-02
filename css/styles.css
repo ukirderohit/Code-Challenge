@@ -44,7 +44,7 @@ background-size: cover;
 
 /*Contents other than header should be relative*/
 .main-nav,
-.main {
+.main,section,footer {
   position: relative; 
 }
 
@@ -68,11 +68,45 @@ header,
 
 
 
-.main {
-  background: #f2f2e8;
-  padding: 110px 50px 50px;
-  column-count: 2;
-  column-gap: 40px;
+section{
+  background: #fff;
+  padding: 50px 50px;
+}
+section h2{
+  color:  darkslateblue;
+  float : none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-bottom: 50px;
+
+  
+}
+
+footer{
+  background: #fff;
+   padding: 200px 150px 150px;
+}
+
+footer h3{
+  color:  darkslateblue;
+  float : none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0; 
+
+}
+
+.foolink{
+  float : none;
+  width: 100%;
+  text-align : center;
+}
+
+img{
+  width: 100%;
+  height: 100%;
 }
 
 h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
@@ -109,13 +143,12 @@ a span{
   width: 100%;
   float: none;
   font-size: 50px;
-  color: white;
+  color: white; 
+  padding-top: 50px;
 
 }
 
-a span:hover {
-  color: 'black';
-}
+
 
 
 a.btn.btn-transparent{
