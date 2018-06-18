@@ -3,9 +3,9 @@ Task: Develop an HTML page based off the design. Make sure it is responsive usin
 Images: Provided in Zip File<br>
 Photoshop File: Provided in Zip File<br>
 Fonts: Karla Regular, Karla Bold (available for free via Google Fonts)<br>
-##[My Solution Demo](http://ukirderohit.me/Code-Challenge/)
+## [My Solution Demo](https://ukirderohit.com/Code-Challenge/)
 
-###To be done:
+### To be done:
 :white_check_mark:– Menu bar fixed to bottom of the page upon arrival, should move up to top of page upon scroll, and once it hits the top of the page, should remain fixed at top of page.
 <br>:white_check_mark:– Main image with CSS gradient overlay, full screen stretch
 <br>:white_check_mark:– Use Bootstrap
@@ -13,7 +13,7 @@ Fonts: Karla Regular, Karla Bold (available for free via Google Fonts)<br>
 <br>:white_check_mark:– Responsive to tablet<br>
 :white_check_mark:– Arrow scrolls you down the page so that the white nav bar is at top of the screen
 
-###Up to you:
+### Up to you:
 :x:– Responsive to mobile<br>
 <br>:x:– Loader for main image
 <br>:x:– Buttons have rollover effects
@@ -23,6 +23,6 @@ Fonts: Karla Regular, Karla Bold (available for free via Google Fonts)<br>
 <br>:white_check_mark:– Animate the arrow on rollover
 <br>:x:– Anything else you can come up with that will make the page better
 
-###Deliverables:
+### Deliverables:
 – HTML, CSS, JS.
 
